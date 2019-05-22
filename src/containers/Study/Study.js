@@ -42,6 +42,7 @@ class Study extends Component {
             </div>
           </div>
         </div>
+
         <div>
           {words[id - 1].word.map((item, i) => (
             <div key={i}>

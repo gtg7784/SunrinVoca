@@ -1,4 +1,5 @@
 @import '../../styles/colors';
+@import '../../styles/breakpoints';
 
 .Study{
     display: flex;
@@ -15,9 +16,26 @@
 
         & > div{
             display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
+            @media (min-width: $small) {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            @media (max-width: $small){
+                &:nth-child(1){
+                    flex-direction: column;
+                    & > span{
+                        margin-bottom: 10px;
+                    }
+                }
+
+                &:nth-child(2){
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
 
             & > div{
                 & > input{
@@ -35,11 +53,21 @@
         margin-top: 50px;
 
         & > div{
-            width: 100%;
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
+            width: 100%;
             margin-bottom: 20px;
+
+            @media (min-width: $small) {
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            @media (max-width: $small) {
+                & > span:nth-child(2){
+                    margin-top: 5px;
+                }
+                flex-direction: column;
+            }
         }
     }
 }
