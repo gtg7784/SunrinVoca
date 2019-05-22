@@ -1,0 +1,34 @@
+@import '../../styles/colors';
+
+.Color{
+    background: $mainColor;
+}
+
+.nonColor{
+    background-color: rgba($mainColor, $alpha: 0.7);
+}
+
+.Header{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 20px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+        color: $navColor;
+        text-decoration: none;
+    }
+
+    & > ul{
+        list-style: none;
+        text-decoration: none;
+
+        & > a{
+            display: list-item;
+            float: left;
+            margin-left: 20px;
+        }
+    }
+}
