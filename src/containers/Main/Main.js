@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 import back from 'assets/image/back.jpeg';
 import './Main.scss';
 
-const type = ['HELLO SUNRIN!', 'THIS IS SUNRIN VOCA!', 'YOU CAN STUDY VOCABULARY WORDS', 'WITH THIS SERVICE!'];
+const type = ['HELLO SUNRIN!', 'THIS IS SUNRIN VOCA!'];
 
 class Main extends Component {
   render() {
