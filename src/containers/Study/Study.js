@@ -14,12 +14,9 @@ class Study extends Component {
     this.handleInputChange = this.handleInputChange.bind(this);
   }
 
-  handleInputChange(event) {
-    const value = event.type === 'checkbox' ? event.checked : event.value;
-    const { name } = event;
-
+  handleInputChange() {
     this.setState({
-      [name]: value,
+      block: this.state.block !== true,
     });
   }
 
