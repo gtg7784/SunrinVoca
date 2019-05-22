@@ -1,4 +1,5 @@
 @import '../../styles/colors';
+@import '../../styles/breakpoints';
 
 .Voca{
     display: flex;
@@ -11,6 +12,7 @@
     & > ul{
         list-style: none;
         width: 70%;
+        padding: 0px;
 
         & > li{
             border-bottom: 1px solid #fff;
@@ -18,22 +20,37 @@
 
             & > span{
                 display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
+                @media (min-width: $small) {
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+
+                @media (max-width: $small) {
+                    flex-direction: column;
+                    align-items: left; 
+                }
     
                 & > h3{
-                    width: 100px;
+                    width: 160px;
+
+                    @media (max-width: $small) {
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
 
                     & > a{
                         text-decoration: none;
                         color: #fff;
                     }
                 }
-            }
 
-            & > div{
-                // display: none;
+                & > div{
+                    @media (max-width: $small) {
+                        margin-bottom: 20px;
+                    }
+                }
             }
         }
     }
