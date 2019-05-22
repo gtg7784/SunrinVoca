@@ -4,7 +4,7 @@ import './Header.scss';
 
 export default class Header extends Component {
   state = {
-    path: "/"
+    path: '/'
   }
 
   componentDidMount() {
@@ -28,7 +28,7 @@ export default class Header extends Component {
         <ul>
           <Link to="/">Main</Link>
           <Link to="/voca">Voca</Link>
-          <Link to="/voca">Exam</Link>
+          <Link to="/exam">Exam</Link>
           {/* <Link to="/login">Login</Link> */}
         </ul>
       </nav>
