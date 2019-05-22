@@ -8,17 +8,18 @@ class Voca extends Component {
   render() {
     return (
       <div className="Voca">
-        <div>
-          {words.map(items => (
-            <div>
-              <h3>DAY - {items.day}</h3>
-              <span>{items.description}</span>
-              <div>
-                <Link to={`/voca/${items.day}`}>START!</Link>
-              </div>
-            </div>
+        <ul>
+          {words.map((items, i) => (
+            <li key={i}>
+              <span>
+                <h3>
+                  <Link to={`/voca/${items.day}`}>DAY - {items.day}</Link>
+                </h3>
+                <div>{items.description}</div>
+              </span>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     );
   }

@@ -29,7 +29,7 @@ export default class Header extends Component {
           <Link to="/">Main</Link>
           <Link to="/voca">Voca</Link>
           <Link to="/voca">Exam</Link>
-          <Link to="/login">Login</Link>
+          {/* <Link to="/login">Login</Link> */}
         </ul>
       </nav>
     );

@@ -5,8 +5,38 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    height: calc(100vh - 60px);
+    // height: calc(100vh - 60px);
     background: $mainColor;
+
+    & > ul{
+        list-style: none;
+        width: 70%;
+
+        & > li{
+            border-bottom: 1px solid #fff;
+            margin-bottom: 30px;
+
+            & > span{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+    
+                & > h3{
+                    width: 100px;
+
+                    & > a{
+                        text-decoration: none;
+                        color: #fff;
+                    }
+                }
+            }
+
+            & > div{
+                // display: none;
+            }
+        }
+    }
 
     & > div{
         display: flex;
