@@ -1,30 +1,30 @@
-import React from 'react';
-import logo from 'logo.svg';
+import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';
+import { Switch, Route } from 'react-router-dom';
 
 import './App.scss';
 
+import Header from 'components/Header/Header';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Main from 'containers/Main/Main';
+import Voca from 'containers/Voca/Voca';
+import Study from 'containers/Study/Study';
+import Login from 'containers/Login/Login';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Header />
+        <Switch>
+          <Route path="/" exact component={Main} />
+          <Route path="/voca" exact component={Voca} />
+          <Route path="/voca/:id" exact component={Study} />
+          <Route path="/login" exact component={Login} />
+        </Switch>
+      </div>
+    );
+  }
 }
-
 
 export default hot(module)(App);
