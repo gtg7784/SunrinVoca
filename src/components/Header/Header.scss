@@ -30,7 +30,15 @@
         & > a{
             display: list-item;
             float: left;
-            margin-left: 20px;
+
+            &:not(:first-child){
+                @media (min-width: $small) {
+                    margin-left: 20px;
+                }
+                @media (max-width: $small) {
+                    margin-left: 10px;
+                }
+            }
         }
     }
 }
