@@ -38,7 +38,7 @@ class Study extends Component {
                 checked={this.state.block}
                 onChange={this.handleInputChange}
               />
-              단어 가리기
+              단어 뜻 가리기
             </div>
           </div>
         </div>
