@@ -9,7 +9,7 @@ import Main from 'containers/Main/Main';
 import Voca from 'containers/Voca/Voca';
 import Study from 'containers/Study/Study';
 import Exam from 'containers/Exam/Exam';
-// import Login from 'containers/Login/Login';
+import Wrong from 'containers/Wrong/Wrong';
 
 class App extends Component {
   render() {
@@ -20,8 +20,10 @@ class App extends Component {
           <Route path="/" exact component={Main} />
           <Route path="/voca" exact component={Voca} />
           <Route path="/voca/:id" exact component={Study} />
-          <Route path="/exam" exact component={Exam} />
-          {/* <Route path="/login" exact component={Login} /> */}
+          <Route path="/exam" exact component={Voca} />
+          <Route path="/exam/:id" exact component={Exam} />
+          <Route path="/wrong" exact component={Voca} />
+          <Route path="/wrong/:id" exact component={Wrong} />
         </Switch>
       </div>
     );
