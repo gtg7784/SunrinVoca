@@ -18,11 +18,9 @@ class App extends Component {
         <Header />
         <Switch>
           <Route path="/" exact component={Main} />
-          <Route path="/voca" exact component={Voca} />
           <Route path="/voca/:id" exact component={Study} />
-          <Route path="/exam" exact component={Voca} />
+          <Route path="/:type" exact component={Voca} />
           <Route path="/exam/:id" exact component={Exam} />
-          <Route path="/wrong" exact component={Voca} />
           <Route path="/wrong/:id" exact component={Wrong} />
         </Switch>
       </div>
