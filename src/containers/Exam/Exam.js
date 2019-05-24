@@ -62,7 +62,7 @@ class Exam extends Component {
               </li>
             ))}
             <li id="example">
-              {`[${exams[id - 1].enko.length + 5}~${exams[id - 1].enko.length + 7}] 다음 빈칸에 들어갈 가장 알맞는 것을 고르세요.`}
+              {`[${exams[id - 1].enko.length + 5}~${exams[id - 1].enko.length + 8}] 다음 빈칸에 들어갈 가장 알맞는 것을 고르세요.`}
               <div>
                 <div>
                   {exams[id - 1].blankExample.map((items, i) => (
