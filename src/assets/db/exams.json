@@ -1,29 +1,440 @@
 [
     {
+        "day": 1,
         "enko": [
             "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
             "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
             "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
             "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
-            "통찰력", "감염시키다; 오염시키다",
-            "전진(하다); 진보(하다)", "생산[제조]하다; 농산물", "찬반양론, 장단점",
-            "조심, 경계; 예방책", "미리 보기; 시사(회), 시연(을 보다[보이다])", "선조, 조상",
-            "예견[예지]하다", "(편지의) 추신; (책, 논문 등의) 후기", "섭취(량)", "투자하다",
-            "propose", "protect", "predict", "premature", "forehead", "foremost", "postpone",
-            "income", "insight", "infect"
+            "통찰력", "감염시키다; 오염시키다"
         ],
-        "underline": [
-            ["Experts", "that unemployment will rise next year."],
-            ["It is contain that my", "were Italian."],
-            ["Americans", "more hamburgers than anyone else."],
-            ["Our knowledge of DNA has", "considerably."]
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
         ],
-        "underlineWord": [
-            "predict", "forefathers", "produce", "progessed"
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
         ],
-        "underlineExample": [
-            ["present", "alter", "forecast", "overcome", "dicate"],
-            ["professors", "originals", "neighbors", "ancestors", "descendants"]
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
+        ],
+        "underlineAnswer": [
+            3, 4, 2, 1
+        ],
+        "blank": [
+            ["The analysis enabled us to", "changes in the market"],
+            ["The movie festival was", "(e)d because of heavy rain"],
+            ["Insuring your car is a(n)", "against future damage."],
+            ["We found some information on", "babies"]
+        ],
+        "blankExample": [
+            "precaution", "foresee", "postpone", "premature", "income"
+        ]
+    },
+    {
+        "day": 1,
+        "enko": [
+            "progress", "produce", "pros and cons", "precaution", "preview", "forefather",
+            "foresee", "postscript", "intake", "invest", "제안[제시]하다, 청혼하다",
+            "보호하다, 막다, 지키다", "예언하다, 예측[예상]하다", "시기상조의; 너무 이른",
+            "이마", "으뜸가는, 중요한, 선두의", "연기하다, 뒤로 미루다", "수입, 소득", 
+            "통찰력", "감염시키다; 오염시키다"
+        ],
+        "underlineSame": [
+            ["Experts", "predict", "that unemployment will rise next year.", "present", "alter", "forecast", "overcome", "dicate"],
+            ["It is contain that my", "forefathers", "were Italian.", "professors", "originals", "neighbors", "ancestors", "descendants"]
+        ],
+        "underlineOpposite": [
+            ["Americans", "produce", "more hamburgers than anyone else.", "separate", "consume", "create", "invent", "develop"],
+            ["Our knowledge of DNA has", "progessed", "considerably.", "regressed", "appeared", "adapted", "advanced", "opposed"]
         ],
         "underlineAnswer": [
             3, 4, 2, 1
