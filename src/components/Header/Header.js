@@ -10,7 +10,7 @@ export default class Header extends Component {
   componentDidMount() {
     setInterval(() => {
       this.setState({ path: window.location.pathname });
-    }, 100);
+    }, 1);
   }
 
   render() {
