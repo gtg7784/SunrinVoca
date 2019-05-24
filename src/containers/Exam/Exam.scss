@@ -1,69 +1,123 @@
 @import '../../styles/colors';
+@import '../../styles/breakpoints';
 
 .Exam{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
     width: 100%;
     background: $mainColor;
 
-    & > ul{
-        list-style: none;
-        width: 70%;
-        padding: 0px;
-
-        & > li{
-            border-bottom: 1px solid #fff;
-            margin-bottom: 30px;
-
-            & > span{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-    
-                & > h3{
-                    width: 100px;
-
-                    & > a{
-                        text-decoration: none;
-                        color: #fff;
-                    }
-                }
-            }
-
-            & > div{
-                // display: none;
-            }
-        }
+    & > h1{
+        margin-left: 15%;
     }
 
     & > div{
         display: flex;
         flex-direction: row;
-        flex-flow: row wrap;
+        justify-content: center;
 
+        & > ul{
+            list-style: none;
+            width: 70%;
+            padding: 0px;
+    
+            & > h2{
+                margin-bottom: 20px;
+            }
+    
+            & > li{
+                border-bottom: 1px solid #fff;
+                margin-bottom: 30px;
+                padding-bottom: 10px;
+    
+                &#enko{
+                    display: flex;
+                    justify-content: space-between;
+
+                    @media (min-width: $small) {
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+
+                    @media (max-width: $small) {
+                        & > span:nth-child(2){
+                            margin-top: 5px;
+                        }
+                        flex-direction: column;
+                    }
+                }
+
+                &#example{
+                    border-bottom: 0px solid #fff;
+                    display: flex;
+                    flex-direction: column;
+
+                    & > div{
+                        display: flex;
+                        justify-content: center;
+
+                        & > div{
+                            border: 1px solid #fff;
+                            padding: 30px 40px;
+                        }
+                    }
+                }
+                
+                & > div{
+                    display: flex;
+                    margin-top: 10px;
+
+                    @media (min-width: $small) {
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+
+                    @media (max-width: $small) {
+                        & > span:nth-child(2){
+                            margin-top: 5px;
+                        }
+                        flex-direction: column;
+                    }
+
+                    & > div {
+                        & > input:not(:first-child){
+                            margin-left: 10px; 
+                        }
+                        & > span{
+                        text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    
         & > div{
             display: flex;
-            flex-direction: column;
-            color: #000;
-            width: 200px;
-            height: 200px;
-            background: $boxColor;
-            margin: 30px;
-            border-radius: 10px;
-            padding: 10px;
-
+            flex-direction: row;
+            flex-flow: row wrap;
+    
             & > div{
                 display: flex;
-                justify-content: center;
-                & > a{
-                    text-decoration: none;
-                    color: #000;
-                    text-align: center;
-                    border: 5px solid #000;
-                    border-radius: 5px;
-                    width: 100px;
+                flex-direction: column;
+                color: #000;
+                width: 200px;
+                height: 200px;
+                background: $boxColor;
+                margin: 30px;
+                border-radius: 10px;
+                padding: 10px;
+    
+                & > div{
+                    display: flex;
+                    justify-content: center;
+                    & > a{
+                        text-decoration: none;
+                        color: #000;
+                        text-align: center;
+                        border: 5px solid #000;
+                        border-radius: 5px;
+                        width: 100px;
+                    }
                 }
             }
         }
