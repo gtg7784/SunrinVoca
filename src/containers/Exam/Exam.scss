@@ -11,6 +11,21 @@
         margin-left: 15%;
     }
 
+    & > a{
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        width: 10%;
+        margin-left: 45%;
+        background: $transparency;
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 10px;
+        margin-bottom: 200px;
+        font-size: 18px;
+        border-radius: 10px;
+    }
+
     & > div{
         display: flex;
         flex-direction: row;
@@ -48,17 +63,15 @@
                 }
 
                 &#example{
-                    border-bottom: 0px solid #fff;
                     display: flex;
-                    flex-direction: column;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    border: 0px solid #fff;
+                    margin-bottom: 20px;
 
                     & > div{
-                        display: flex;
-                        justify-content: center;
-
-                        & > div{
-                            border: 1px solid #fff;
-                            padding: 30px 40px;
+                        & > span{
+                            margin-right: 10px;
                         }
                     }
                 }

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import './Exam.scss';
 
 import exams from 'assets/db/exams.json';
@@ -62,13 +62,14 @@ class Exam extends Component {
               </li>
             ))}
             <li id="example">
-              {`[${exams[id - 1].enko.length + 5}~${exams[id - 1].enko.length + 8}] 다음 빈칸에 들어갈 가장 알맞는 것을 고르세요.`}
               <div>
-                <div>
-                  {exams[id - 1].blankExample.map((items, i) => (
-                    <Fragment key={i}>{`${items}  `}</Fragment>
-                  ))}
-                </div>
+                {`[${exams[id - 1].enko.length + 5}~${exams[id - 1].enko.length + 8}] 다음 빈칸에 들어갈 가장 알맞는 것을 고르세요.`}
+              </div>
+              <div>
+                <span>보기)</span>
+                {exams[id - 1].blankExample.map((items, i) => (
+                  <Fragment key={i}>{` ${items} `}</Fragment>
+                ))}
               </div>
             </li>
             {exams[id - 1].blank.map((items, i) => (
@@ -85,6 +86,8 @@ class Exam extends Component {
             ))}
           </ul>
         </div>
+
+        <Link to={`/scoring/${id}`}>Scoring</Link>
       </div>
     );
   }
