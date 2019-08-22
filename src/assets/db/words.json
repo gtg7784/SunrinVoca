@@ -346,7 +346,7 @@
     },
     {
         "day": 16,
-        "description": "",
+        "description": "cap car",
         "word": [
             "capital", "capable", "capture", "capture",
             "chief", "achieve", "occupy", "participate", 
@@ -369,7 +369,7 @@
     },
     {
         "day": 17,
-        "description": "",
+        "description": "cast cede centr cern cert",
         "word": [
             "cast", "broadcast", "forecast", "precede",
             "exceed", "proceed", "succeed", "predecessor", 
@@ -391,7 +391,7 @@
     },
     {
         "day": 18,
-        "description": "",
+        "description": "cid cide circul cit civi claim",
         "word": [
             "accident", "incident", "casual", "occasion",
             "decay","suicide", "decision", "precise", 
@@ -414,7 +414,7 @@
     },
     {
         "day": 19,
-        "description": "",
+        "description": "clin clud cogn cord corp",
         "word": [
             "decline", "inclined", "climate", "conclude",
             "include", "exclude", "closet", "disclose",
@@ -437,7 +437,7 @@
     },
     {
         "day": 20,
-        "description": "",
+        "description": "crea cred cult cur dam",
         "word": [
             "create", "recreate", "increase", "decrease",
             "concrete", "recruit", "credit", "incredible",
@@ -457,6 +457,248 @@
             "교과[이수] 과정, 교과목", "발생하다, 일어나다","치료(법), 치료약; 치료하다",
             "호기심이 강한; 이상한, 묘한", "정확한, 정밀한",
             "손해[손상](를 입히다)", "비난하다, 책망하다"
+        ]
+    },
+    {
+        "day": 21,
+        "description": "deb der dict don duc",
+        "word": [
+            "due", "duty", "render", "surrender",
+            "rent", "add", "edition", "dictate",
+            "addict", "contradict", "dedicate", "indicate",
+            "index", "donation", "anecdote", "dose",
+            "conduct", "educate", "deduct", 
+            "induce", "introduce","reduce"
+        ],
+        "meaning": [
+            "~하기로 되어 있는; ~에 기인하는", "(법적, 도덕적인) 의무; 세금",
+            "~를 ...한 상태로[가] 만들다[되게 하다]", "항복(하다); 양도(하다)",
+            "임대[임차]료; 임대[임차]하다", "추가하다; 덧붙여 말하다",
+            "(간행물의) 판", "받아쓰게 하다; 명령[지시]하다", "중독자",
+            "반박하다; ~와 모순되다", "(시간, 노력 등을) 바치다, 헌신하다",
+            "가리키다; 암시하다, 나타내다", "색인, 목록; 지표, 지수",
+            "기부(금), 기증(품)", "일화", "(약의 1회분) 복용량, 투여량",
+            "수행하다, 실시하다; 이끌다", "교육하다, 가르치다",
+            "빼다, 공제하다", "설득하여 ~하게 하다; 야기하다", 
+            "소개하다; 도입하다, 들여오다", "감소시키다, 줄이다, 낮추다"
+        ]
+    },
+    {
+        "day": 22,
+        "description": "electr equ/ident ess estim fa",
+        "word": [
+            "electric", "electronic", "equal", "equivalent",
+            "adequate", "identify", "essence", "absent",
+            "present", "estimate", "overestimate", "esteem",
+            "fable", "fate", "fame", "infancy", "preface",
+            "confess", "profess"
+        ],
+        "meaning": [
+            "전기의, 전기로 작동하는", "전자의, 전자 공학의", 
+            "같은, 평등한; ~에 필적하다", "동등한, 대등한; ~에 상당하는", 
+            "충분한, 적당한; 괜찮은", "확인하다; 동일시하다", 
+            "본질, 진수, 정수; 핵심", "결석[결근]한, 없는, 결여된; 멍한",
+            "출석하고 있는; 현재(의); 주다; 나타내다; 선물", 
+            "평가(하다), 추정(하다); 견적(서)", "과대평가하다", 
+            "존경, 경의; 존중하다", "우화", "운명, 숙명", 
+            "명성, 평판", "유아기; 초기 (단계)", "머리말, 서문", 
+            "인정하다, 시인하다; 고백하다", "공언하다"
+        ]
+    },
+    {
+        "day": 23,
+        "description": "fac fals fare",
+        "word": [
+            "manufacture", "facility", "faculty", "factor", 
+            "factual", "effect", "affect", "defect", 
+            "fiction", "proficient", "sufficient", "efficient",
+            "profit", "benefit", "qualify", "satisfy", 
+            "affair", "false", "fail", "fault", "fare", 
+            "farewell", "welfare"
+        ],
+        "meaning": [
+            "제조(하다), 생산(하다); 꾸며내다", "(편의) 시설, 설비; 기능; 장소", 
+            "(대학의) 학부; (대학 등의) 교수진", "요소, 요인", 
+            "사실에 입각한, 사실적인", "효과, 영향; 결과", 
+            "영향을 미치다; ~인 체하다, 가장하다", "결점, 결함, 결핍",
+            "소설; 꾸며낸 이야기", "숙달된, 능숙한", "충분한",
+            "능률적인, 효율적인", "(금전적인) 이익, 수익", 
+            "이익, 이점; ~에 득[도움]이되다", "자격[권한]을 얻다[주다], 적임이다",
+            "만족시키다, 충족시키다", "일, 활동; 사건, 스캔들(추문)",
+            "거짓의, 가짜의", "실패(하다); ~하지 않다[못하다]", 
+            "잘못, 과실; 결점", "(교통 기관의) 요금, 운임", 
+            "작별 (인사); 작별의", "복지, 복리, 행복, 번영"
+        ]
+    },
+    {
+        "day": 24,
+        "description": "fend fer fid fin flect flict",
+        "word": [
+            "defend", "offend", "prefer", "refer",
+            "confer", "infer", "indifferent", "fertile",
+            "confident", "faith", "defy", "final",
+            "finance", "confine", "refine", "define",
+            "infinite", "reflect", "flexible","conflict",
+            "inflict"
+        ],
+        "meaning": [
+            "방어하다; 변호[변론]하다", "화나게 하다; 위반하다", 
+            "~을 더 좋아하다, 차라리 ~을 택하다", "언급하다; 참조하다",
+            "의논하다, 협의하다; 수여하다", "추론하다, 추정[추측]하다", 
+            "(~에) 무관심한, 동정심이 없는", "(땅이) 기름진, 비옥한; 많이 낳는", 
+            "확신하고 있는; 자신만만한", "신뢰, 믿음; 신념, 신앙", 
+            "반항하다; (법률 등을) 무시하다", "최종적인, 최후의; 최후의 것; 결승(전)", 
+            "재정, 재무; 재원, 자금; 융자하다", "한정[제한]하다; 가두다", 
+            "정제하다; 개선하다, 다듬다", "규정[한정]하다; 정의하다",
+            "무한한", "반사하다; 반영하다; 숙고하다", "융통성 있는; 구부리기 쉬운",
+            "대립(하다), 충돌(하다)", "(고통이나 타격을) 가하다, (벌 등을) 주다"
+        ]
+    },
+    {
+        "day": 25,
+        "description": "flu form fort frag fund fus",
+        "word": [
+            "fluid", "fluent", "influence", "influenza",
+            "form", "inform", "reform", "formula",
+            "fort", "effort", "comfort", "force", 
+            "reinforce", "fragment", "fragile", "fraction",
+            "fund", "fundamental", "profound", "found", 
+            "confuse", "refuse", "futile", "refund"
+        ],
+        "meaning": [
+            "액체; 유동적인, 변하기 쉬운", "유창한, 능통한",
+            "영향(력); 영향을 미치다", "유행성 감기, 독감", 
+            "형태; 형식; 형성하다[되다]", "알리다, 통지하다",
+            "개혁(하다[되다]), 개선(하다[되다])", "방식, 방법; 공식, 식", 
+            "요새, 성채, 보루", "노력, 수고", "편안함; 위로; 편안하게 하다", 
+            "힘; 폭력; 병력; 강요하다", "강화하다, 증강[보강]하다", 
+            "파편, 조각", "부서지기 쉬운, 깨지기 쉬운", 
+            "단편, 일부, 소량; 분수", "기금, 자금; 자금을 제공하다", 
+            "근본적인, 기본적인; 중요한, 필수의", "(영향, 효과 등이) 강한; 심오한", 
+            "설립하다; ~에 기초를 두다", "혼동시키다[하다]; 뒤섞다",
+            "거절하다, 사절하다", "쓸모없는, 무익한", "환불, 반환(금); 환불[반환]하다"
+        ]
+    },
+    {
+        "day": 26,
+        "description": "gard gener gest grad",
+        "word": [
+            "regard", "garment", "guard", "guarantee",
+            "generate", "generous", "general", "genetic",
+            "genius", "gentle", "genuine", "ingenious", 
+            "oxygen", "hydrogen", "pregnant", "gesture",
+            "digest", "register", "gradual", "graduate",
+            "aggressive", "congress", "degree", "ingredient"
+        ],
+        "meaning": [
+            "(~으로) 여기다, 간주하다", "의류, 옷가지", 
+            "경호원, 경비원; 지키다, 보호하다", "보장[보증]하다, 장담하다; 보증(서)",
+            "생산[창출]하다, 일으키다", "관대한, 인색하지 않은; 풍부한", 
+            "일반적인, 보편적인", "유전학의, 유전적인", "천재(적 재능)",
+            "온화한, 친절한; 부드러운", "진짜의, 진품의; 진실된",
+            "독창적인, 발명에 재능이 있는", "산소", "수소",
+            "임신한; (의미,  중요성 등을) 품은", "몸짓, 제스처; (감정 등의) 표현",
+            "소화하다[되다]; 이해하다; 요약", "등록하다, 이름을 적다; 기록",
+            "점진적인, 점차적인", "졸업하다; (대학) 졸업생, 학사", 
+            "공격적인; 적극적인, 진취적인", "의회, 국회", 
+            "정도, 단계; 도; 학위", "(음식 등의) 재료; 성분, (구성) 요소"
+        ]
+    },
+    {
+        "day": 27,
+        "description": "graph grat grav hab hered",
+        "word": [
+            "graphic", "paragraph", "photograph",
+            "grammar", "congratulate", "gratitude", 
+            "agree", "grace", "grave", "aggravate", 
+            "grieve", "habit", "inhabit", "habitat",
+            "exhibit", "prohibit", "able", "heredity", 
+            "heritage", "inherit", "heir"
+        ],
+        "meaning": [
+            "생생한, 사실적인; 도표의", "(문장의) 단락; 짧은 기사",
+            "사진; 사진을 찍다", "문법 (체계)", "축하하다, 축하의 말을 하다",
+            "감사(의 마음)", "동의하다, 의견이 일치하다; 승낙하다",
+            "우아함; 친절함; 은총, 은혜", "무덤; 중대한; 진지한",
+            "악화시키다; 화나게 하다", "비통해 하다, 슬프게 하다", 
+            "(몸에 밴) 습관, 버릇", "(~에) 살다, 서식하다, 거주하다",
+            "(동식물의) 서식지, 거주지", "전시(하다), 진열(하다)",
+            "(법, 규칙 등으로) 금지하다", "~할 수 있는; 유능한",
+            "유전", "전통문화[유산]", "물려받다, 상속하다; 유전되다", 
+            "(재산, 지위 등의) 상속인, 후계자"
+        ]
+    },
+    {
+        "day": 28,
+        "description": "host hum insul it ject jus",
+        "word": [
+            "host", "hostile", "hospitable", "human",
+            "humble", "humility", "humiliate", "peninsula", 
+            "isolate", "exit", "initial", "initiate", 
+            "transit", "perish", "issue", "inject",
+            "object", "subject", "project", "reject", 
+            "just", "justify", "judge", "prejudice", 
+            "injure"
+        ],
+        "meaning": [
+            "(손님을 접대하는) 주인; 주최하다", "적대적인, 비우호적인", 
+            "환대하는, 친절한, (대접이) 후한", "인간의, 사람의; 인간, 사람", 
+            "겸손한, 자기를 낮추는; 비천한", "겸손", "굴욕감을 주다, 자존심을 상하게 하다", 
+            "반도", "고립시키다, 격리시키다", "출구; 퇴장; 나가다", 
+            "처음의, 최초의; 머리글자", "시작[개시]하다; 전(수)하다", 
+            "통과, 통행; 운송, 수송", "죽다, 소멸하다", 
+            "논쟁점, 문제; 발행(물), 출판(물)", "주입하다, 주사하다",
+            "물체; 목적; 대상; 반대하다", "주제; 과목; 피실험자; 영향받기 쉬운",
+            "프로젝트, 계획; 예상하다", "거절[거부]하다, 불학격품[자]",
+            "바로, 틀림없이; 단지, 그저; 올바른", "정당화하다, 옳다고 하다", 
+            "재판관, 판사; 심판; 판단하다", "편견, 선입관; 편견을 갖게 하다",
+            "상처 입히다, 다치게 하다"
+        ]
+    },
+    {
+        "day": 29,
+        "description": "labor lat lax/ly lect",
+        "word": [
+            "labor", "laboratory", "elaborate", "collaborate",
+            "relate", "legislate", "relax", "analyze", 
+            "paralyze", "release", "delay", "relay", 
+            "collect", "recollect", "elect", "neglect",
+            "intellect", "lecture", "elegant", "legend",
+            "diligence"
+        ],
+        "meaning": [
+            "노동, 근로; 노동자; 일하다", "실험실, 연구소[실]", 
+            "정교한, 정성들여 만든", "협력하다, 공동으로 하다", 
+            "관계를 짓다, 관련시키다", "법률을 제정하다, 입법하다", 
+            "쉬다, 긴장을 풀다; 완화하다", "분석하다, 검토하다, 분해하다",
+            "마비시키다, 활동 불능이 되게 하다", "석방(하다); 공개(하다); 표출하다", 
+            "연기하다, 늦추다; 연기, 지연", "전달하다; 중계(하다)", 
+            "수집하다, 모으다; 징수하다", "생각해내다, 회상하다", 
+            "선출[선거]하다", "소홀히[게을리] 하다; 무시[간과]하다", 
+            "지성, 지력, 사고력; 지식인", "강의[강연](하다); 훈계(하다)", 
+            "우아한, 고상한, 세련된", "전설(적인 인물)", "근면, 부지런함"
+        ]
+    },
+    {
+        "day": 30,
+        "description": "leg lev liber lig limin",
+        "word": [
+            "legal", "privilege", "delegate", "legacy", 
+            "colleague", "loyal", "elevate", "relevant", 
+            "relieve", "liberal", "liberate", "deliver",
+            "oblige", "religion", "ally", "rally", 
+            "liable", "eliminate", "preliminary", "limit"
+        ],
+        "meaning": [
+            "법률(상)의; 합법적인", "특권, 특전", 
+            "대표자, 대리인; 위임하다", "유산, 유물, 물려받은 것", 
+            "(직장) 동료", "충성스러운, 충실한", "(지위, 수준 등을) 높이다, 향상시키다",
+            "(당면 문제와) 관계가 있는, 관련된", "(고통, 고민 등을) 경감[완화]시키다", 
+            "관대한, 개방적인; 자유주의의; 후한", "자유롭게 하다, 해방[석방]하다", 
+            "배달하다, 전하다; 강연하다", "(~하도록) 의무를 지우다, 강요하다",
+            "종교; 신조", "동맹[연합]국, 동맹[협력]자", 
+            "집회, 대회; (주가 등의) 회복", "(~에 대해) 책임을 져야 할",
+            "제거하다, 없애다", "예비[준비](의), 서두(의)", "제한(선); 한계(량); 제한하다"
         ]
     }
 ]

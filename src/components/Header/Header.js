@@ -27,8 +27,8 @@ export default class Header extends Component {
         </h2>
         <ul>
           <Link to="/voca">Voca</Link>
-          <Link to="/exam">Exam</Link>
-          <Link to="/wrong">Wrong</Link>
+          {/* <Link to="/exam">Exam</Link>
+          <Link to="/wrong">Wrong</Link> */}
         </ul>
       </nav>
     );
