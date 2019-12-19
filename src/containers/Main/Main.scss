@@ -7,27 +7,28 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: calc(100vh - 60px);
-    background-color: rgba($mainColor, $alpha: 0.7);
-    background-size: 100%;
+    height: calc(100vh - 160px);
     flex-direction: column;
 
-    & > span{
-        font-weight: 500;
-        @media (min-width: $small) {
-            font-size: 42pt;
+    & > div{
+        width: 62.5%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        & > hr{
+            border: solid 2px #71ccde;
+            border-radius: 2px;
         }
 
-        @media (max-width: $small) {
-            font-size: 22pt;
+        & > p{
+            text-align: center;
+            font-size: 72px;
+            font-weight: bold;
+            color: $black;
+            & > span{
+                color: $mainColor;
+                font-size: 100px;
+            }
         }
     }
-}
-
-.back{
-    margin-top: -60px;
-    position: absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
 }

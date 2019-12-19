@@ -1,10 +1,10 @@
 import React, { Component, Fragment } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import './Exam.scss';
+import './Test.scss';
 
 import exams from 'assets/db/exams.json';
 
-class Exam extends Component {
+class Test extends Component {
   state = {
     number: 0
   }
@@ -12,7 +12,7 @@ class Exam extends Component {
   render() {
     const { id } = this.props.match.params;
     return (
-      <div className="Exam">
+      <div className="Test">
         <h1>DAY - {id}</h1>
 
         <div>
@@ -93,4 +93,4 @@ class Exam extends Component {
   }
 }
 
-export default withRouter(Exam);
+export default withRouter(Test);

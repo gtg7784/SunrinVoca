@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+
 import './Header.scss';
 
 export default class Header extends Component {
@@ -14,21 +15,32 @@ export default class Header extends Component {
   }
 
   render() {
-    const { path } = this.state;
     return (
-      <nav className={
-         path === '/'
-          ? 'nonColor Header'
-          : 'Color Header'
-      }
-      >
+      <nav className="Header">
         <h2>
-          <Link to="/">Sunrin Voca</Link>
+          <Link to="/">
+            SUNRINVOCA
+          </Link>
         </h2>
         <ul>
-          <Link to="/voca">Voca</Link>
-          {/* <Link to="/exam">Exam</Link>
-          <Link to="/wrong">Wrong</Link> */}
+          {this.state.path === "/VOCA" ? 
+            <div>
+              <div>
+                <Link to="/VOCA">VOCA</Link>
+                <div/>
+              </div>
+            </div>
+          : <Link to="/VOCA">VOCA</Link>
+          }
+          {this.state.path === "/TEST" ? 
+            <div>
+              <div>
+                <Link to="/TEST">TEST</Link>
+                <div/>
+              </div>
+            </div>
+          : <Link to="/TEST">TEST</Link>
+          }
         </ul>
       </nav>
     );
