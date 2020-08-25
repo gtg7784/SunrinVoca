@@ -20,8 +20,8 @@ class App extends Component {
           <Route path="/" exact component={Main} />
           <Route path="/:type" exact component={Voca} />
           <Route path="/voca/:id" exact component={Study} />
-          <Route path="/test/:id" exact component={Test} />
-          <Route path="/wrong/:id" exact component={Wrong} />
+          {/* <Route path="/test/:id" exact component={Test} /> */}
+          {/* <Route path="/wrong/:id" exact component={Wrong} /> */}
         </Switch>
       </div>
     );
