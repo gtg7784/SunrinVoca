@@ -7,11 +7,13 @@ import words from 'assets/db/words.json';
 class Voca extends Component {
 
   path = (items) => {
-    if(window.location.pathname === '/VOCA'){
-      return`/voca/${items.day}`;
-    } else if(window.location.pathname === '/TEST'){
-      return `/TEST/${items.day}`;
-    }
+    // if(window.location.pathname === '/VOCA'){
+    //   return`/voca/${items.day}`;
+    // } else if(window.location.pathname === '/TEST'){
+    //   return `/TEST/${items.day}`;
+    // }
+
+    return`/voca/${items.day}`;
   }
 
   render() {

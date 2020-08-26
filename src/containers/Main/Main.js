@@ -5,7 +5,7 @@ class Main extends Component {
   render() {
     return (
       <div className="Main">
-        <div>
+        {/* <div>
           <hr />
           <p>
               HELLO SUNRIN! <br/> THIS IS {' '}
@@ -14,7 +14,7 @@ class Main extends Component {
               </span>
           </p>
           <hr />
-        </div>
+        </div> */}
 
       </div>
     );
