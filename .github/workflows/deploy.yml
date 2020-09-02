@@ -19,10 +19,10 @@ jobs:
         - name: Build
           run: |
             yarn run build
-      - name: Deploy to Firebase
-        if: success()
-        uses: w9jds/firebase-action@master
-        with:
-          args: deploy --only hosting
-        env:
-          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        - name: Deploy to Firebase
+          if: success()
+          uses: w9jds/firebase-action@master
+          with:
+            args: deploy --only hosting
+          env:
+            GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
